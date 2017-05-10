@@ -1,0 +1,25 @@
+.tab {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(40, 42, 40, 0.9); }
+  .tab .tab-item {
+    flex: 1;
+    text-align: center;
+    font-size: 0;
+    color: #a7a7a7; }
+    .tab .tab-item .active {
+      color: white; }
+    .tab .tab-item i {
+      position: relative;
+      bottom: 8px;
+      font-size: 28px; }
+    .tab .tab-item span {
+      display: block;
+      font-size: 10px;
+      margin-top: -46px; }
+
+/*# sourceMappingURL=app.css.map */
